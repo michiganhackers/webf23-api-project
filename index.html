@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agefy</title>
+  </head>
+  <body>
+    <h1>Agefy guesses your age!</h1>
+    <p>Input your name:</p>
+    <input type="text" placeholder="name" id="name" />
+    <button
+      type="submit"
+      onclick="getAge(document.getElementById('name').value)"
+    >
+      Submit
+    </button>
+    <h2>Your age is:</h2>
+    <h2 id="age"></h2>
+    <script src="./index.js"></script>
+  </body>
+</html>
